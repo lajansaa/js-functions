@@ -1,7 +1,7 @@
 function sumArray(arr) {
   var total = 0;
-  arr.forEach(function(element, index){
-    total += (element * index);
+  arr.forEach(function(element){
+    total += element;
   });
   return total;
 }
